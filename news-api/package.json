@@ -1,0 +1,14 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "A simple API for fetching news articles using the GNews API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "node-cache": "^5.1.2"
+  }
+}
